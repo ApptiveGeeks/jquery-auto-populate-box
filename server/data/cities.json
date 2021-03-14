@@ -1,0 +1,404 @@
+[
+ {
+   "id": 1,
+   "country_id": 120,
+   "region_id": 5408,
+   "city": "Manchester"
+ },
+ {
+   "id": 2,
+   "country_id": 120,
+   "region_id": 5410,
+   "city": "Liverpool"
+ },
+ {
+   "id": 3,
+   "country_id": 120,
+   "region_id": 5411,
+   "city": "Newcastle"
+ },
+ {
+   "id": 4,
+   "country_id": 120,
+   "region_id": 5412,
+   "city": "Sheffield"
+ },
+ {
+   "id": 5,
+   "country_id": 120,
+   "region_id": 5414,
+   "city": "Laugharne"
+ },
+ {
+   "id": 6,
+   "country_id": 120,
+   "region_id": 5412,
+   "city": "Leeds"
+ },
+ {
+   "id": 7,
+   "country_id": 120,
+   "region_id": 5415,
+   "city": "Chester"
+ },
+ {
+   "id": 8,
+   "country_id": 120,
+   "region_id": 5416,
+   "city": "Preston"
+ },
+ {
+   "id": 9,
+   "country_id": 120,
+   "region_id": 5417,
+   "city": "Birmingham"
+ },
+ {
+   "id": 10,
+   "country_id": 120,
+   "region_id": 5418,
+   "city": "Leicester"
+ },
+ {
+   "id": 11,
+   "country_id": 120,
+   "region_id": 5412,
+   "city": "Bradford"
+ },
+ {
+   "id": 12,
+   "country_id": 120,
+   "region_id": 5419,
+   "city": "Scarborough"
+ },
+ {
+   "id": 13,
+   "country_id": 120,
+   "region_id": 5420,
+   "city": "Nottingham"
+ },
+ {
+   "id": 14,
+   "country_id": 120,
+   "region_id": 5422,
+   "city": "Kenmore"
+ },
+ {
+   "id": 15,
+   "country_id": 120,
+   "region_id": 5422,
+   "city": "Glasgow"
+ },
+ {
+   "id": 16,
+   "country_id": 120,
+   "region_id": 5423,
+   "city": "London"
+ },
+ {
+   "id": 17,
+   "country_id": 120,
+   "region_id": 5408,
+   "city": "Bolton"
+ },
+ {
+   "id": 18,
+   "country_id": 120,
+   "region_id": 5426,
+   "city": "Yeovil"
+ },
+ {
+   "id": 19,
+   "country_id": 120,
+   "region_id": 5427,
+   "city": "Huddersfield"
+ },
+ {
+   "id": 20,
+   "country_id": 120,
+   "region_id": 5429,
+   "city": "Edinburgh"
+ },
+ {
+   "id": 21,
+   "country_id": 120,
+   "region_id": 5430,
+   "city": "London"
+ },
+ {
+   "id": 22,
+   "country_id": 120,
+   "region_id": 5416,
+   "city": "Blackpool"
+ },
+ {
+   "id": 23,
+   "country_id": 120,
+   "region_id": 5433,
+   "city": "Plymouth"
+ },
+ {
+   "id": 24,
+   "country_id": 120,
+   "region_id": 5434,
+   "city": "Huddersfield"
+ },
+ {
+   "id": 25,
+   "country_id": 120,
+   "region_id": 5435,
+   "city": "Bangor"
+ },
+ {
+   "id": 26,
+   "country_id": 120,
+   "region_id": 5412,
+   "city": "Halifax"
+ },
+ {
+   "id": 27,
+   "country_id": 120,
+   "region_id": 5437,
+   "city": "Cwmgwili"
+ },
+ {
+   "id": 28,
+   "country_id": 121,
+   "region_id": 5440,
+   "city": "New York"
+ },
+ {
+   "id": 29,
+   "country_id": 121,
+   "region_id": 5440,
+   "city": "Syracuse"
+ },
+ {
+   "id": 30,
+   "country_id": 121,
+   "region_id": 5441,
+   "city": "Chicago"
+ },
+ {
+   "id": 31,
+   "country_id": 121,
+   "region_id": 5441,
+   "city": "Springfield"
+ },
+ {
+   "id": 32,
+   "country_id": 121,
+   "region_id": 5442,
+   "city": "Tucson"
+ },
+ {
+   "id": 33,
+   "country_id": 121,
+   "region_id": 5442,
+   "city": "Phoenix"
+ },
+ {
+   "id": 34,
+   "country_id": 121,
+   "region_id": 5443,
+   "city": "Seattle"
+ },
+ {
+   "id": 35,
+   "country_id": 121,
+   "region_id": 5443,
+   "city": "Tacoma"
+ },
+ {
+   "id": 36,
+   "country_id": 121,
+   "region_id": 5444,
+   "city": "Portland"
+ },
+ {
+   "id": 37,
+   "country_id": 121,
+   "region_id": 5444,
+   "city": "Eugene"
+ },
+ {
+   "id": 38,
+   "country_id": 121,
+   "region_id": 5445,
+   "city": "Aurora"
+ },
+ {
+   "id": 39,
+   "country_id": 121,
+   "region_id": 5445,
+   "city": "Denver"
+ },
+ {
+   "id": 40,
+   "country_id": 121,
+   "region_id": 5446,
+   "city": "Los Angeles"
+ },
+ {
+   "id": 41,
+   "country_id": 121,
+   "region_id": 5446,
+   "city": "San Francisco"
+ },
+ {
+   "id": 42,
+   "country_id": 121,
+   "region_id": 5447,
+   "city": "Houston"
+ },
+ {
+   "id": 43,
+   "country_id": 121,
+   "region_id": 5447,
+   "city": "Odessa"
+ },
+ {
+   "id": 44,
+   "country_id": 121,
+   "region_id": 5448,
+   "city": "Miami"
+ },
+ {
+   "id": 45,
+   "country_id": 121,
+   "region_id": 5448,
+   "city": "Orlando"
+ },
+ {
+   "id": 46,
+   "country_id": 121,
+   "region_id": 5449,
+   "city": "Atlanta"
+ },
+ {
+   "id": 47,
+   "country_id": 121,
+   "region_id": 5449,
+   "city": "Augusta"
+ },
+ {
+   "id": 48,
+   "country_id": 122,
+   "region_id": 5450,
+   "city": "Edmonton"
+ },
+ {
+   "id": 49,
+   "country_id": 122,
+   "region_id": 5450,
+   "city": "Calgary"
+ },
+ {
+   "id": 50,
+   "country_id": 122,
+   "region_id": 5451,
+   "city": "Victoria"
+ },
+ {
+   "id": 51,
+   "country_id": 122,
+   "region_id": 5451,
+   "city": "Vancouver"
+ },
+ {
+   "id": 52,
+   "country_id": 122,
+   "region_id": 5452,
+   "city": "Winnipeg"
+ },
+ {
+   "id": 53,
+   "country_id": 122,
+   "region_id": 5452,
+   "city": "Brandon"
+ },
+ {
+   "id": 54,
+   "country_id": 122,
+   "region_id": 5453,
+   "city": "Fredericton"
+ },
+ {
+   "id": 55,
+   "country_id": 122,
+   "region_id": 5453,
+   "city": "Dieppe"
+ },
+ {
+   "id": 56,
+   "country_id": 122,
+   "region_id": 5454,
+   "city": "St. John's"
+ },
+ {
+   "id": 57,
+   "country_id": 122,
+   "region_id": 5454,
+   "city": "Mount Pearl"
+ },
+ {
+   "id": 58,
+   "country_id": 122,
+   "region_id": 5455,
+   "city": "Halifax"
+ },
+ {
+   "id": 59,
+   "country_id": 122,
+   "region_id": 5455,
+   "city": "Dartmouth"
+ },
+ {
+   "id": 60,
+   "country_id": 122,
+   "region_id": 5456,
+   "city": "Toronto"
+ },
+ {
+   "id": 61,
+   "country_id": 122,
+   "region_id": 5456,
+   "city": "Waterloo"
+ },
+ {
+   "id": 62,
+   "country_id": 122,
+   "region_id": 5457,
+   "city": "Charlottetown"
+ },
+ {
+   "id": 63,
+   "country_id": 122,
+   "region_id": 5457,
+   "city": "Summerside"
+ },
+ {
+   "id": 64,
+   "country_id": 122,
+   "region_id": 5458,
+   "city": "Quebec City"
+ },
+ {
+   "id": 65,
+   "country_id": 122,
+   "region_id": 5458,
+   "city": "Montreal"
+ },
+ {
+   "id": 66,
+   "country_id": 122,
+   "region_id": 5459,
+   "city": "Regina"
+ },
+ {
+   "id": 67,
+   "country_id": 122,
+   "region_id": 5459,
+   "city": "Estevan"
+ }
+]

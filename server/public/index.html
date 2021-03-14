@@ -1,0 +1,70 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../jquery.autoPopulateBox.js"></script>
+</head>
+
+<body>
+  <h3>City lookup</h3>
+  <form class="rd-mailform form-select" data-form-output="form-output-global" data-form-type="contact" method="post"
+    action="bat/rd-mailform.php">
+    <div class="form-wrap form-wrap-validation">
+      <select id="search_country_id" class="form-input select-filter" data-style="modern"
+        data-placeholder="Choose Location" data-minimum-results-for-search="Infinity" data-constraints="@Required">
+        <option label="placeholder">Country</option>
+        <option value="120">United Kingdom</option>
+        <option value="121">United States</option>
+        <option value="122">Canada</option>
+      </select><span class="select-arrow"></span>
+    </div>
+    <div class="form-wrap form-wrap-validation">
+      <select id="search_region_id" class="form-input select-filter" data-style="modern"
+        data-placeholder="Property Status" data-minimum-results-for-search="Infinity" data-constraints="@Required">
+        <option label="placeholder">Region</option>
+      </select><span class="select-arrow"></span>
+    </div>
+    <div class="form-wrap form-wrap-validation">
+      <select id="search_city_id" class="form-input select-filter" data-style="modern" data-placeholder="Property Type"
+        data-minimum-results-for-search="Infinity" data-constraints="@Required">
+        <option label="placeholder">City</option>
+      </select><span class="select-arrow"></span>
+    </div>
+    <div class="form-button">
+      <button class="button button-block button-secondary" type="submit">Search</button>
+    </div>
+  </form>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#search_country_id').autoPopulateBox({
+        emptyLabel: 'Please select...',
+        triggerOnLoad: false,
+        change: 'region',
+        region: {
+          target: '#search_region_id',
+          url: 'http://localhost:3000/api/regions',
+          appendToUrl: function () {
+            $result = '?country_id=' + $('#search_country_id').val();
+            return $result;
+          },
+          change: 'city'
+        },
+        city: {
+          target: '#search_city_id',
+          url: 'http://localhost:3000/api/cities',
+          appendToUrl: function () {
+            $result = '?1=1';
+            $result += '&country_id=' + $('#search_country_id').val();
+            $result += '&region_id=' + $('#search_region_id').val();
+            return $result;
+          },
+          continueIfEmpty: true
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

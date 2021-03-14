@@ -67,7 +67,8 @@
 				}
 				
 				//if the value is empty dont to proceed to ajax call
-				if ( !$self.val() ) {
+                $continueIfEmpty = (typeof($change.continueIfEmpty) != 'undefined') ? $change.continueIfEmpty : false;
+				if ( !$self.val() && !$continueIfEmpty ) {
 					autoBox.complete($self, $change);
 					return;
 				}
@@ -117,7 +118,7 @@
 					type: 'get',
 					dataType: 'json'
 				})
-				.success(function(data) {
+				.done(function(data) {
 					//Display data on your format
 					if ($.isFunction($change.formatData)) {
 						$change.formatData($target, data);
@@ -132,7 +133,7 @@
 						$target.val(selected);
 					}
 				})
-				.complete(function(jqXHR, textStatus) {
+				.always(function(jqXHR, textStatus) {
 					autoBox.complete($self, $change);
 				});
 				
